@@ -1,0 +1,229 @@
+ls
+pwd
+cd /
+pwd
+cd vagrant
+cd /home/vagrant
+pwd
+cd carpeta_compartida/
+pwd
+cd ..
+pwd
+ls -l
+man man
+man ls
+ls -a
+man cp
+pwd
+vagrant halt
+vagrant --help
+ls
+pwd
+whoami
+cls
+echo holamundo
+echo 'Hola Lone'
+vagrant -v
+pwd
+ls
+cd repogit/
+pwd
+cd ..
+pwd
+cd repogit/
+pwd
+ls
+cd UTN-FRA_SO_onBording/
+pwd
+cd ..
+cd..
+cd ..
+pwd
+ls
+mkdir Prueba
+ls
+rm Prueba
+rm -r Prueba
+ls
+man rm
+pwd
+mkdir Prueba
+pwd
+ls
+rm -r prueba
+rm -r Prueba
+ls
+mkdir Prueba
+ls
+mrdir Prueba
+ls
+rmdir Prueba
+ls
+mkdir Prueba
+cd Prueba
+man mk
+touch archivo1
+ls
+pwd
+cd ..
+ls
+cd Prueba
+ls
+cp archivo1 /home/vagrant
+cd ..
+pwd
+ls
+cd Prueba
+ls
+cd Prueba
+cd ..
+pwd
+ls
+rm archivo1
+ls
+cd Prueba
+ls
+mv archivo1 /home/vagrant
+ls
+cd ..
+pwd
+ls
+history
+history > historial.txt
+cat historial.txt
+cd
+ls
+cd..
+cd HOME
+pwd
+cd ..
+pwd
+cd
+pwd
+cd
+mkdir repogit
+ls
+cd repogit/
+git clone git@github.com:FrancoMLS/TP_AySO.git
+ll
+git clone git@github.com:FrancoMLS/TP_AySO.git
+ssh-keygen
+cat $HOME/.ssh/*.pub
+git clone git@github.com:FrancoMLS/TP_AySO.git
+pwd
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+help grep
+man -k grep
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git config --global usaer.email "francolonelloserra@gmail.com"
+git config --global usaer.name "FrancoMLS"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git config --global user.email "francolonelloserra@gmail.com"
+git config --global user.name "FrancoMLS"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo | grep "modelo_de_cpu" >> datos_usuario.txt
+cat datos_usuario.txt 
+/proc/cpuinfo | grep "modelo_de_cpu" >> datos_usuario.txt
+sudo /proc/cpuinfo | grep "modelo_de_cpu" >> datos_usuario.txt
+sudo cpu-info
+sudo apt install cpuinfo
+head /proc/cpuinfo | grep "modelo_de_cpu" >> datos_usuario.txt
+cat datos_usuario.txt 
+/proc/cpuinfo | grep "modelo_de_cpu" >> datos_usuario.txt
+sudo /proc/cpuinfo | grep "modelo_de_cpu" >> datos_usuario.txt
+sudo /proc/cpu-info | grep "modelo_de_cpu" >> datos_usuario.txt
+sudo /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+exit
+ls
+cd Prueba
+ls
+cd ..
+cd archivo1
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cat datos_usuario.txt 
+cat $HOME/.ssh/*.pub
+cd ..
+ll
+cd TP_AySO/
+ll
+cat README.md 
+ll
+ls -l
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i home_url /etc/os-release 
+whoami
+git status
+cat /proc/cpu_info
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | head -n1
+cat /proc/cpuinfo | grep "model name" | head -1
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+man grep
+grep -v nologin /etc/passwd > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+ls
+cd lista_ordenada.txt
+cat lista_ordenada.txt 
+sort lista_ordenada.txt -t ":" -k 7
+cat lista_ordenada.txt 
+sort lista_ordenada.txt -t ":" -k 7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+sort lista_ordenada.txt -t":" -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+ll
+cat lista_ordenada.txt 
+grep -v nologin /etc/passwd | head -n10 | sort -t ":" -k 7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+ls
+ll
+git status
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+man
+help
+man apropos
+man apropos 
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+ls
+cat comando_dump_net 
+git status
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+ls
+cat << END >> README.md
+Alumno: Lonello Serra, Franco Manuel
+División: 312
+Turno: Noche
+END
+
+cat README.md 
+git status
+git add .
+git commit -m "Agrego mis datos al README"
+git status
+history -a
